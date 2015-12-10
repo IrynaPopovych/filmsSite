@@ -1,0 +1,22 @@
+
+@charset "utf-8";
+body{
+    background: dimgray
+}
+h1{
+    color:floralwhite;
+        font-family:cursive
+}
+h2{
+    color: deepskyblue
+}
+h3{
+    color: deepskyblue
+}
+h4{
+    color: deepskyblue
+}
+.row div {
+    background: #333;
+    height: 450px
+}
