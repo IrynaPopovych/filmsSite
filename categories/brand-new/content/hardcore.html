@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seansov.net Фильмы онлайн</title>
+
+    <link href="../../../css/bootstrap.css" rel="stylesheet">
+    <link href="../../../css/style.css" rel="stylesheet">
+    <link href="../../../css/font-awesome.css"rel="stylesheet" type="text/css" >
+    <link href="http://vjs.zencdn.net/5.5.3/video-js.css" rel="stylesheet">
+  </head>
+  <body>
+
+  	<!--HEADER BAR-->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+				<span class="sr-only">Открыть навигацию</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				
+			</button>
+		   <a href="../../../index.html" class="navbar-brand">Seansov.net</a>
+			</div>		
+			<div class="collapse navbar-collapse" id="responsive-menu">
+				<ul class="nav navbar-nav">
+					<li><a href="../../../categories/brand-new/index.html">Новинки</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">По категориям<b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="../../../categories/serials/index.html">Сериалы</a></li>
+							<li><a href="../../../index.html">Фильмы</a></li>
+                            <li><a href="../../../categories/anime/index.html">Аниме</a></li>
+                            <li><a href="../../../categories/musicals/index.html">Мюзиклы</a></li>
+				            <li class="divider"></li>
+				            <li><a href="../../../categories/concerts/index.html">Концерты</a></li>
+							<li><a href="../../../categories/television/index.html">Телепередачи</a></li>
+						</ul>		
+					</li>
+					<li><a href="../../../orders.html">Заказы</a></li>
+					<li><a href="../../../about.html">О Нас</a></li>
+				</ul>
+    <form action="" class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="E-mail" value=""></input>
+			<input type="password" class="form-control" placeholder="Пароль" value=""></input>
+         </div>
+			<button class="btn btn-success" type="submit">
+			 <i class="fa fa-sign-in">Войти</i>
+           </button>
+        <button class="btn btn-warning" type="submit">
+            <i class="fa fa-key">Регистрация</i>
+         </button>
+	</form>				
+			</div>
+		</div>
+	</div>
+	<hr>
+	<!--IMAGE AND PLAYER-->
+	<div class="container main-block">
+      <div class="row">
+      <!--  Rating Stars    -->
+		<div class="col-lg-4" align="left">
+		        <div class="star-rating">
+                <div class="star-rating__wrap">
+                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+              </div>
+            </div>
+		</div>
+		<div class="col-lg-8">
+		    
+		</div>
+      </div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<img src="../../../images/movies/brand-new/hardcore.JPG" class="img-responsive" alt="warcraft">
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+				<video id="my-video" class="video-js" controls preload="auto" width="740" height="447" data-setup="{}">
+<!--    				<source src="video/warcraft.mp4" type='video/mp4'>-->
+<!--  				    <source src="MY_VIDEO.webm" type='video/webm'>-->
+  				    <source src="http://www.ex.ua/show/225821344/608751735ad6b112688a6d84eb2c89ac.mp4" type='video/mp4'>
+    				<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that
+      					<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+   					 </p>
+  				</video>
+			</div>
+		</div>
+		<div class="row">
+       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+           <br>
+         </div>
+        </div>
+		<div class="row">
+       <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+       <table border="0"><tr><th>Год:</th><td>2016</td></tr>
+           <tr><th>Cтрана:</th><td>Россия, США</td></tr>
+           <tr><th>Режиссер:</th><td>Илья Найшуллер</td></tr>
+           <tr><th>Жанр:</th><td>боевик, фантастика</td></tr>
+           <tr><th>Бюджет:</th><td>$2 000 000</td></tr>
+           <tr><th>Премьера (мир):</th><td>12 сентября 2016</td></tr>
+<tr><th>Время:</th><td>90 мин. / 01:30</td></tr></table>          
+        </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+            <p><b>Сюжет:</b> В воздушной лаборатории над Москвой проводятся военно-научные эксперименты по созданию людей-киборгов. Научный сотрудник Эстель собирает киборга Генри, который пробуждается в своей новой форме и единственное, что помнит из прошлой
+            <table><td></td></table>
+            <b>В главных ролях: </b>Шарлто Копли, Данила Козловский, Хейли Беннетт, Андрей Дементьев, Сергей Шнуров, Кирилл Серебренников, Александр Паль, Светлана Устинова, Даша Чаруша, Равшана Куркова</p>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        </div>
+	</div>	
+	<script src="http://vjs.zencdn.net/5.5.3/video.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../../js/bootstrap.js"></script>
+  </body>
+</html>

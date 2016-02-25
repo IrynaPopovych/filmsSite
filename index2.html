@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Seansov.net Фильмы онлайн</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.css"rel="stylesheet" type="text/css" >
+    <link href="http://vjs.zencdn.net/5.5.3/video-js.css" rel="stylesheet">
+  </head>
+  <body>
+
+  	<!--HEADER BAR-->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#responsive-menu">
+				<span class="sr-only">Открыть навигацию</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				
+			</button>
+		<a href="#" class="navbar-brand">Seansov.net</a>
+			</div>
+			<div class="collapse navbar-collapse" id="responsive-menu">
+				<ul class="nav navbar-nav">
+					<li><a href="#">Пункт 1</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Пункт 2 <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Пункт 1</a></li>
+							<li><a href="#">Пункт 2</a></li>
+							<li><a href="#">Пункт 3</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Пункт 4</a></li>
+						</ul>		
+					</li>
+					<li><a href="#">Пункт 3</a></li>
+					<li><a href="#">Пункт 4</a></li>
+				</ul>
+				<form action="" class="navbar-form navbar-right">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="E-mail" value=""></input>
+						<input type="password" class="form-control" placeholder="Пароль" value=""></input>
+					</div>
+					<button class="btn btn-primary" type="submit">
+						<i class="fa fa-sign-in">ВОЙТИ</i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<!--IMAGE AND PLAYER-->
+	<div class="container main-block">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+				<img src="images/warcraft.png" class="img-responsive" alt="warcraft">
+			</div>
+			<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+				<video id="my-video" class="video-js" controls preload="auto" width="740" height="447" data-setup="{}">
+    				<source src="video/warcraft.mp4" type='video/mp4'>
+  				    <source src="MY_VIDEO.webm" type='video/webm'>
+    				<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that
+      					<a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+   					 </p>
+  				</video>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="http://vjs.zencdn.net/5.5.3/video.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
